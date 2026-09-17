@@ -1,0 +1,11 @@
+# Archivos de entorno y temporales
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Datos (Bloqueo de archivos CSV y Excel locales)
+data/raw/
+data/processed/
+
+# Archivos de Power BI temporales
+*.pbix.lck

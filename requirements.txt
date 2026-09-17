@@ -1,0 +1,6 @@
+pandas
+prophet
+holidays
+openmeteo-requests
+requests
+jupyter
