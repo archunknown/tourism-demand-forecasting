@@ -6,4 +6,5 @@ requests
 requests-cache
 retry-requests
 openpyxl
+seaborn
 jupyter
