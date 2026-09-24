@@ -3,4 +3,7 @@ prophet
 holidays
 openmeteo-requests
 requests
+requests-cache
+retry-requests
+openpyxl
 jupyter

@@ -2,10 +2,21 @@
 venv/
 __pycache__/
 .ipynb_checkpoints/
+.cache/
+.cache.sqlite
 
-# Datos (Bloqueo de archivos CSV y Excel locales)
-data/raw/
-data/processed/
+# Ignorar contenido pesado de datos y dashboard, manteniendo las carpetas tracked mediante .gitkeep
+data/raw/*
+!data/raw/.gitkeep
 
-# Archivos de Power BI temporales
+data/processed/*
+!data/processed/.gitkeep
+
+data/outputs/*
+!data/outputs/.gitkeep
+
+dashboard/*
+!dashboard/.gitkeep
+
+# Archivos temporales de Power BI
 *.pbix.lck
